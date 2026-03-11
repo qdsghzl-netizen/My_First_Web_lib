@@ -6,7 +6,7 @@
 // 后端 API 根地址：
 // - 本地开发时可用 http://localhost:3000/api
 // - 部署到线上（如 Render / Railway / 自建服务器）后，改成你的后端地址
-const API_BASE_URL = 'https://my-first-web-lib-backend.onrender.com';
+const API_BASE_URL = 'https://my-first-web-lib-backend.onrender.com/api';
 
 async function apiRequest(path, options = {}) {
     const res = await fetch(`${API_BASE_URL}${path}`, {
@@ -138,4 +138,5 @@ const StorageManager = {
         return collected.includes(fileId);
     },
 };
+
 
