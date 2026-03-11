@@ -1,0 +1,14 @@
+{
+  "name": "my-lib-backend",
+  "version": "1.0.0",
+  "description": "Simple backend API for multi-device sync of file management system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
+
